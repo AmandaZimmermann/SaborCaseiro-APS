@@ -54,6 +54,12 @@ body, a {
     justify-content: space-around;
 }
 
+.carousel__content__recipe:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.3s
+}
+
 .carousel__content__recipe__image {
     border-radius: 20px;
     width: 20vw;
